@@ -41,12 +41,15 @@ And it even checks for connection error, too.
 	To reach that, I've created a function to handle the method that set querys to database, 
 	since we don't need too complicated codes to do that and all questions above can be done by a simple, similar pattern.
 	The only problem is to find out what query needs to be send, most important is every question should only have one query.
-	And it turns out that subqueries can fix the problem, and I also use "join" on every question though they might not be so explicit.
+	And it turns out that subqueries can fix the problem, 
+	and I also use "join" on every question though they might not be so explicit.
 	Since the hardest part has been solved, the only thing remained is simply to print those results out and that's it!
 
 ## Requirements
 
-    The program is based on python 3, and PostgreSQL for the database. To ensure nothing goes wrong, a Virtual Machine might be needed. Python 3 and PostgreSQL will be both installed on the VM automatically.
+    The program is based on python 3, and PostgreSQL for the database. 
+    To ensure nothing goes wrong, a Virtual Machine might be needed. 
+    Python 3 and PostgreSQL will be both installed on the VM automatically.
 
     1. VM: Install Vagrant and VirtualBox.
         VirtualBox: https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
