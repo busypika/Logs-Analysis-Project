@@ -8,9 +8,11 @@ And it even checks for connection error, too.
 
 ## Main Function
 
-    1. What are the most popular three articles of all time? Which articles have been accessed the most?
-    2. Who are the most popular article authors of all time? That is, when you sum up all of the articles each author has written, which authors get the most page views?
-    3. On which days did more than 1% of requests lead to errors?
+	1. What are the most popular three articles of all time?
+	Which articles have been accessed the most?
+   	2. Who are the most popular article authors of all time?
+	That is, when you sum up all of the articles each author has written, which authors get the most page views?
+   	3. On which days did more than 1% of requests lead to errors?
 
 ### Expected Output
 
@@ -35,8 +37,11 @@ And it even checks for connection error, too.
 
 ## Design
 	I tried not to use "view" on this project to get more challenges.
-	The whole design is simply "set a query to database, get results, print it out". To reach that, I've created a function to handle the method that set querys to database, since we don't need too complicated codes to do that and all questions above can be done by a simple, similar pattern.
-	The only problem is to find out what query needs to be send, most important is every question should only have one query. And it turns out that subqueries can fix the problem, and I also use "join" on every question though they might not be so explicit.
+	The whole design is simply "set a query to database, get results, print it out".
+	To reach that, I've created a function to handle the method that set querys to database, 
+	since we don't need too complicated codes to do that and all questions above can be done by a simple, similar pattern.
+	The only problem is to find out what query needs to be send, most important is every question should only have one query.
+	And it turns out that subqueries can fix the problem, and I also use "join" on every question though they might not be so explicit.
 	Since the hardest part has been solved, the only thing remained is simply to print those results out and that's it!
 
 ## Requirements
