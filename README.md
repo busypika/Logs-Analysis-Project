@@ -29,7 +29,7 @@ And it even checks for connection error, too.
     "Anonymous Contributor" - 170098 views
     "Markoff Chaney" - 84557 views
 
-    Days did more than 1%% of requests lead to errors are:
+    Days did more than 1% of requests lead to errors are:
 
     2016-07-17:  2.26 %  errors
 
@@ -55,6 +55,8 @@ And it even checks for connection error, too.
     2. Open up your terminal and change directory into the folder.
     3. Run vagrant up.
     4. After all set, run vagrant ssh to log in.
+	
+	Notice: Everything inside /vagrant in VM will be shared with your local computer.
 
 ### Load database
 

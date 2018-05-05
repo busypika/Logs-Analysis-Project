@@ -72,7 +72,7 @@ def get_most_error():
         WHERE (error.error_req*1.0/total.total_req)*100 > 1
         ''')
     # Print Results
-    print("Days did more than 1%% of requests lead to errors are: ")
+    print("Days did more than 1% of requests lead to errors are: ")
     print("")
     for i in range(len(results)):
         # %% for escape the % sign
